@@ -27,7 +27,7 @@ jobs:
         working-directory: 'wsha'
       - run: npm run test
         name: npm TESTS
-        working-directory: 'wsha'
+        working-directory: ./wsha
       - run: npm run generate
         name:  npm run generate
         working-directory: 'wsha'
